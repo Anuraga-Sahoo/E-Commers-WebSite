@@ -1,0 +1,11 @@
+Q.How to use debuger
+
+step-1 npm i debug
+step-2 const debug = require('debug')
+step-3 instade of console.log use debug("server running on http://localhost:8000")
+step-4 go to vscode terminal run this syntax -> $env:DEBUG='*'; node index.js
+       if you use window cmd then use this syntax -> set DEBUG=* & node index.js 
+
+to run debuger in vs code terminal use this syntax
+
+-> $env:DEBUG='*'; nodemon index.js
